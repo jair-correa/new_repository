@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+}
+@media print {
+    nav{
+        display: none;
+    }
+}
+@media screen {
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+       
+}
+
+@media (max-widht:480px) {
+    nav a{
+        position:fixed;
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+iframe{
+    width: 100vw;
+    height: 56.25vw;
+    max-height: 50vh;
+    max-width: 88.89vh;
+    position: absolute;
+    padding: 2px;
+    margin: 20px;
+    
+    }
