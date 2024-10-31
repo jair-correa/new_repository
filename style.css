@@ -25,13 +25,39 @@
         width: 100%;
     }
 }
+
+#iframe{
+    color: aliceblue;
+    background-color: black;
+    margin-bottom: 0px;
+    padding: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    display: flex;
+    align-items:flex-start;
+}
+
 iframe{
-    width: 100vw;
-    height: 56.25vw;
-    max-height: 50vh;
-    max-width: 88.89vh;
-    position: absolute;
-    padding: 2px;
-    margin: 20px;
-    
-    }
+    width: 400px;
+    height: 225px;
+    padding: 2px;    
+}
+
+#formulary{
+    background-color:beige;
+    font-size: 25px;
+    margin: 25px;
+    color:#383838;
+}
+
+input{
+    color: #383838;
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
