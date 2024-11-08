@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+div {
+  border-radius: 10px;
+}
 
 #topmenu {
   text-align: center;
